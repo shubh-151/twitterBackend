@@ -1,12 +1,26 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "./constants";
-import express from "express";
-const app = express()
+import connectDB from "./db";
+
+connectDB()
+
+
+
+
+
+
+
+
+
 
 
 
 /* 
 Raw code but not used in best production grade
+
+
+import express from "express";
+const app = express()
 
 (async()=>{
     try {
